@@ -14,8 +14,6 @@ large=${arr[0]}
 
 for ele in "${arr[@]}"
 do
-	if  [ $ele -ge $small ]
-	then
         if [ $small -ge $ele ]
         then
                 small=$ele
